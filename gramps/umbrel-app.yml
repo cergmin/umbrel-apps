@@ -1,0 +1,57 @@
+manifestVersion: 1.1
+id: gramps
+name: Gramps
+tagline: "Your family history, on your own server: a private and secure web app for genealogy"
+category: files
+version: "25.12.0"
+port: 8356
+description: >-
+  Welcome to Gramps Web, a modern, feature-packed, free & open source web app for browsing and collaboratively editing genealogical databases. Fully interoperable with the Gramps desktop application, Gramps Web brings your family history to the web, making it accessible from anywhere and easy to share.
+
+
+  Gramps Web is a web based application, ideally suited for collaborating with others to build your family tree together. It can be accessed from any mobile or portable web-enabled device. Gramps Web is free & open source software, with the privacy and control of your data a top priority.
+
+
+  Gramps Web is designed to be a companion to Gramps Desktop, the leading open source genealogy desktop application.
+
+
+  Key highlights of Gramps Web include:
+
+  🌐 Access Anywhere: Browse and edit your family tree on any web-enabled device.
+
+  🤝 Collaborative Features: Share and collaborate with family members in real-time.
+
+  🔒 Privacy First: Advanced privacy controls ensure your data stays secure.
+
+  🗺️ Interactive Visualizations: Family tree charts, dynamic maps, and more.
+
+  🧩 Bi-Directional Sync: Seamlessly sync data between Gramps Web and Gramps Desktop.
+backupIgnore:
+  - data/redis/*
+developer: Gramps Project
+website: https://www.grampsweb.org
+submitter: cergmin
+submission: https://github.com/getumbrel/umbrel-apps/pull/0000
+repo: https://github.com/gramps-project/gramps-web
+support: https://github.com/gramps-project/gramps-web/issues
+gallery: []
+releaseNotes: >-
+  **External search**
+
+  The highlight in this release is the new external search feature. It adds a button in the person view that offers a selection of external genealogical repositories to search for the person's details. Inspired by Gramps desktop's web connect addon, it currently includes the providers CompGen, FamilySearch, Ancestry, MyHeritage, Geneanet, WikiTree, and Find a Grave.
+
+  Users can easily hide the providers they don't need and can add custom providers by entering a search URL with template variables.
+
+
+  **Improved keyboard shortcuts**
+
+  The new keyboard shortcut `e` allows to quickly toggle the edit mode in any of the primary object (e.g. person) views. In addition to pressing the `?`` key, the documentation of available keyboard shortcuts can now also be found on the help page added in v25.11.0.
+
+
+  **Backend improvements: more powerful AI assistant**
+
+  Version 3.6.0 of Gramps Web API, the server component of the web app, has been released this week. See [its release notes](https://github.com/gramps-project/gramps-web-api/releases/tag/v3.6.0) for details about the improvements it brings. Most importantly, it takes the Gramps Web AI assistant to the next level by allowing it to call genealogical tools.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
